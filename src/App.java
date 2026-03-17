@@ -117,39 +117,7 @@ public class App {
         for(int i = 0; i < 5; i++){
             operacoes = 0;
             inicio = System.nanoTime();
-            codigo1(gerarVetor(tamanhosTestePequeno[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
-            codigo1(gerarVetor(tamanhosTesteMedio[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
             codigo1(gerarVetor(tamanhosTesteGrande[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
-            codigo2(gerarVetor(tamanhosTestePequeno[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
-            codigo2(gerarVetor(tamanhosTesteMedio[i]));
             fim = System.nanoTime();
             tempo = (fim - inicio) * nanoToMilli;
             System.out.println("Operações: " + operacoes);
@@ -165,14 +133,6 @@ public class App {
 
             operacoes = 0;
             inicio = System.nanoTime();
-            codigo3(gerarVetor(tamanhosTestePequeno[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
             codigo3(gerarVetor(tamanhosTesteMedio[i]));
             fim = System.nanoTime();
             tempo = (fim - inicio) * nanoToMilli;
@@ -181,31 +141,7 @@ public class App {
 
             operacoes = 0;
             inicio = System.nanoTime();
-            codigo3(gerarVetor(tamanhosTesteGrande[i]));
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
             codigo4(tamanhosTestePequeno[i]);
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
-            codigo4(tamanhosTesteMedio[i]);
-            fim = System.nanoTime();
-            tempo = (fim - inicio) * nanoToMilli;
-            System.out.println("Operações: " + operacoes);
-            System.out.println("Tempo: " + tempo);
-
-            operacoes = 0;
-            inicio = System.nanoTime();
-            codigo4(tamanhosTesteGrande[i]);
             fim = System.nanoTime();
             tempo = (fim - inicio) * nanoToMilli;
             System.out.println("Operações: " + operacoes);
